@@ -1,0 +1,2 @@
+# moneylegos
+Go Ethereum testnet
