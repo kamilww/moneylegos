@@ -6,12 +6,12 @@ Go Ethereum
 https://geth.ethereum.org/downloads/
 
 # Network Setup
-These are the following steps to set this testnet up from scratch and explore using Geth and MyCrypto:
+These are the following steps to configure this testnet up from scratch:
 
 ## Step 1: Set up Accounts for Two Nodes
 * Input the following command: ./geth account new --datadir *yournodename*
 * Enter and confirm a password to unlock this.
-* <img width="568" alt="Screen Shot 2021-07-25 at 7 27 27 PM" src="https://user-images.githubusercontent.com/40152804/126916779-eccfdfb5-c29c-4da2-9ccc-      fcce730cb39a.png">
+* <img width="578" alt="Screen Shot 2021-07-26 at 5 37 22 PM" src="https://user-images.githubusercontent.com/40152804/127062593-0542ae77-c3bc-463a-bf63-a814cb054e5e.png">
 * Repeat this step with at least one other node using a different nodename.
 
 ## Step 2: Initialize the network using CLI
@@ -39,24 +39,20 @@ These are the following steps to set this testnet up from scratch and explore us
 * Choose which folder you would like to save the genesis configuration in.
 * <img width="567" alt="Screen Shot 2021-07-25 at 6 05 38 PM" src="https://user-images.githubusercontent.com/40152804/126914873-d7535323-5039-495c-9b57-757ebdc8e681.png">
 
-
 ## Step 6: Initialize Nodes
 * Crtl-C puppeth
 * Use the following command on both of your nodes: ./geth init yournetworkname.json --datadir *yournodename*
 * This is what the output should look like:
 * <img width="568" alt="Screen Shot 2021-07-25 at 7 54 37 PM" src="https://user-images.githubusercontent.com/40152804/126917512-2a8f6f35-8896-489a-8dd7-3efdfbf2c788.png">
 
-## Step 9: Importing Accounts Created Under Step 1:
-* Use the following command to 
+# Starting up and Activating the Blockchain
 
-## Step 9: Starting up the Blockchain
 * Use the following to activate node  and start mining: ./geth --datadir *younodename* --mine --miner.threads 1
 * Record the enode:// address in following output from activating node 1.
 * <img width="566" alt="Screen Shot 2021-07-26 at 11 11 55 AM" src="https://user-images.githubusercontent.com/40152804/127013363-e34d0835-554a-4b66-9083-e4b3c6362272.png">
 * Use the following on node 2 with the RPC flag enabled and use the enode:// address from the first node (note that port 30303 was used by node 1, so make sure to at least select port 30304 for node 2) ./geth --datadir *yournodename* --port 30304 --rpc --bootnodes "enode://<replace with node1 enode address>"
 * 
   ./geth --datadir nodebeta --port 30304 --rpc --bootnodes "enode://127ecdb15b35eb8181c314d0cf6ce3ea36d3e4bf15f0001da8daf5a2c9f0adc828d805137e01df30846fde4a0a6c2947ddb7768bb5a08bd8ff7bcb3bf0729e1c@127.0.0.1:30303"
-# How to Activate Network
 
 # How to Send Transactions Using MyCrypto
 
