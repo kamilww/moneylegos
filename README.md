@@ -1,3 +1,4 @@
+
 # moneylegos
 Go Ethereum testnet with Proof of Authority consensus
 
@@ -47,12 +48,10 @@ These are the following steps to configure this testnet up from scratch:
 
 # Starting up and Activating the Blockchain
 
-* Use the following to activate your first node and start mining: ./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unloc
+* Use the following to activate your first node and start mining: ./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
 * Record the enode:// address in following output from activating node 1.
 * Activate your second node (to also mine) with a unique port from node 1: ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 * <img width="566" alt="Screen Shot 2021-07-26 at 11 11 55 AM" src="https://user-images.githubusercontent.com/40152804/127013363-e34d0835-554a-4b66-9083-e4b3c6362272.png">
-* Use the following on others non mining nodes with the RPC flag enabled and use the enode:// address from the first node (note that port 30303 was used by node 1, so make sure to select a unique port) ./geth --datadir *yournodename* --port 30304 --rpc --bootnodes "enode://<replace with node1 enode address>"
-* 
 
 # How to Send Transactions Using MyCrypto
 
@@ -60,15 +59,15 @@ These are the following steps to configure this testnet up from scratch:
 * First, you must set up a custom node on MyCrypto in order to connect to this PoA network. First select change network, and then on "Add Custom Node"
 <img width="1216" alt="Screen Shot 2021-07-26 at 7 00 50 PM" src="https://user-images.githubusercontent.com/40152804/127069911-2d279c1e-df6a-45d6-808b-8dd241426b6c.png">
 * You will see a screen like the following below. Make sure to use http://127.0.0.1:8545 as the URL, ETH as the currency, and the Chain ID of the network.
-* ![image](https://user-images.githubusercontent.com/40152804/127069827-96d8687f-9a9e-4509-b138-b69031a66d52.png)
-* Click change network, and select the custom node you created.
+* <img width="582" alt="Screen Shot 2021-07-26 at 7 21 56 PM" src="https://user-images.githubusercontent.com/40152804/127071440-408558c5-8b6c-4ce7-a617-55a4890c9a3e.png">
+* 
+* Click change network, and select the custom network you created.
 
 ## Step 2
 * Click on either "Private Key" or "Keystore File" and follow the prompts to unlock your node accounts.
 * You will see the following screen. Follow the prompts to send a transaction
-
-  
-  
-  
+<img width="1215" alt="Screen Shot 2021-07-26 at 7 39 36 PM" src="https://user-images.githubusercontent.com/40152804/127072696-3447afc2-880f-4e29-9e82-6a0dcb977acd.png">
+<img width="1222" alt="Screen Shot 2021-07-26 at 7 40 22 PM" src="https://user-images.githubusercontent.com/40152804/127072763-4e0bfa11-e829-4911-9bae-364ffdf5ded7.png">
+<img width="1352" alt="Screen Shot 2021-07-26 at 8 08 37 PM" src="https://user-images.githubusercontent.com/40152804/127074757-eed17007-aebc-4649-a36a-01f9d6b4001a.png">
   
   
