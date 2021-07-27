@@ -68,6 +68,7 @@ These are the following steps to configure this testnet up from scratch:
 * You will see the following screen. Follow the prompts to send a transaction
 <img width="1215" alt="Screen Shot 2021-07-26 at 7 39 36 PM" src="https://user-images.githubusercontent.com/40152804/127072696-3447afc2-880f-4e29-9e82-6a0dcb977acd.png">
 <img width="1222" alt="Screen Shot 2021-07-26 at 7 40 22 PM" src="https://user-images.githubusercontent.com/40152804/127072763-4e0bfa11-e829-4911-9bae-364ffdf5ded7.png">
-<img width="1352" alt="Screen Shot 2021-07-26 at 8 08 37 PM" src="https://user-images.githubusercontent.com/40152804/127074757-eed17007-aebc-4649-a36a-01f9d6b4001a.png">
+<img width="1353" alt="Screen Shot 2021-07-26 at 8 10 04 PM" src="https://user-images.githubusercontent.com/40152804/127074842-473cc130-ab39-4f1a-a624-9ed281c73bdf.png">
+
   
   
