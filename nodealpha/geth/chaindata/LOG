@@ -1,0 +1,74 @@
+=============== Jul 26, 2021 (EDT) ===============
+18:10:49.610912 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:10:49.671817 db@open opening
+18:10:49.673728 version@stat F·[] S·0B[] Sc·[]
+18:10:49.694650 db@janitor F·2 G·0
+18:10:49.694774 db@open done T·22.870061ms
+18:10:49.696152 db@close closing
+18:10:49.696337 db@close done T·182.375µs
+=============== Jul 26, 2021 (EDT) ===============
+18:11:44.898605 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:11:44.898816 version@stat F·[] S·0B[] Sc·[]
+18:11:44.898844 db@open opening
+18:11:44.898918 journal@recovery F·1
+18:11:44.905301 journal@recovery recovering @1
+18:11:44.925778 memdb@flush created L0@2 N·16 S·1KiB "H\x8d\xc2..\xc1\xe13,v9":"\xdbP]..Vʤ,v5"
+18:11:44.935526 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+18:11:45.016483 db@janitor F·3 G·0
+18:11:45.016530 db@open done T·117.672122ms
+18:12:01.734006 db@close closing
+18:12:01.734119 db@close done T·111.129µs
+=============== Jul 26, 2021 (EDT) ===============
+18:22:12.604413 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:22:12.604668 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+18:22:12.604697 db@open opening
+18:22:12.604775 journal@recovery F·1
+18:22:12.611080 journal@recovery recovering @3
+18:22:12.631232 memdb@flush created L0@5 N·13 S·777B "Dat..ion,v18":"unc..own,v26"
+18:22:12.640005 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+18:22:12.724616 db@janitor F·4 G·0
+18:22:12.724682 db@open done T·119.963409ms
+19:09:32.052823 db@close closing
+19:09:32.053320 db@close done T·495.597µs
+=============== Jul 26, 2021 (EDT) ===============
+19:14:45.599001 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:14:45.600035 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+19:14:45.600070 db@open opening
+19:14:45.600164 journal@recovery F·1
+19:14:45.606866 journal@recovery recovering @6
+19:14:45.627564 memdb@flush created L0@8 N·44 S·1KiB "Fas..mit,v43":"unc..own,v32"
+19:14:45.637057 version@stat F·[3] S·3KiB[3KiB] Sc·[0.75]
+19:14:45.716392 db@janitor F·5 G·0
+19:14:45.716434 db@open done T·116.345866ms
+19:49:55.106825 db@close closing
+19:49:55.106984 db@close done T·157.842µs
+=============== Jul 26, 2021 (EDT) ===============
+19:50:06.894336 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:50:06.894581 version@stat F·[3] S·3KiB[3KiB] Sc·[0.75]
+19:50:06.894615 db@open opening
+19:50:06.894702 journal@recovery F·1
+19:50:06.901114 journal@recovery recovering @9
+19:50:06.921229 memdb@flush created L0@11 N·50 S·2KiB "H\x14\xe1..\x89\xcd|,d117":"unc..own,v77"
+19:50:06.929303 version@stat F·[4] S·5KiB[5KiB] Sc·[1.00]
+19:50:07.010491 db@janitor F·6 G·0
+19:50:07.010536 db@open done T·115.897581ms
+19:50:07.010582 table@compaction L0·4 -> L1·0 S·5KiB Q·127
+19:50:07.065949 table@build created L1@14 N·25 S·1KiB "Dat..ion,v18":"\xdbP]..Vʤ,v5"
+19:50:07.066009 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+19:50:07.103998 table@compaction committed F-3 S-3KiB Ke·0 D·98 T·93.375061ms
+19:50:07.104426 table@remove removed @8
+19:50:07.121952 table@remove removed @5
+19:50:07.122337 table@remove removed @2
+19:58:28.915075 db@close closing
+19:58:28.915246 db@close done T·169.933µs
+=============== Jul 26, 2021 (EDT) ===============
+19:59:23.080510 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:59:23.080770 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+19:59:23.080800 db@open opening
+19:59:23.080881 journal@recovery F·1
+19:59:23.286930 journal@recovery recovering @12
+19:59:23.309179 memdb@flush created L0@15 N·59 S·2KiB "H\vs..\xcd\xfe@,d168":"unc..own,v128"
+19:59:23.318517 version@stat F·[1 1] S·4KiB[2KiB 1KiB] Sc·[0.25 0.00]
+19:59:23.401701 db@janitor F·5 G·1
+19:59:23.401752 db@janitor removing table-11
+19:59:23.401998 db@open done T·321.17938ms
