@@ -6,6 +6,9 @@ Go Ethereum testnet with Proof of Authority consensus
 Go Ethereum
 https://geth.ethereum.org/downloads/
 
+My Crypto
+https://www.mycrypto.com/
+
 # Network Setup
 These are the following steps to configure this testnet up from scratch:
 
